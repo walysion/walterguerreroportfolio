@@ -1,0 +1,32 @@
+.container-fluid {
+  top: 800px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Cambia la dirección principal a columna */
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.elemento {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.titulo {
+  order: -1; /* Coloca el título al principio del contenedor */
+  color: white;
+  position: relative;
+  bottom: 150px;
+}
+
+
+

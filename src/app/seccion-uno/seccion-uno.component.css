@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container-fluid{
+width: 100%;
+height: 400px;
+top: 200px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.item{
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+
+.elemento{
+width: 600px;
+height: 200px;
+margin: 10px;
+
+color: white;
+
+}
+
+
+
+.elemento img{
+  width: 300px;
+  height: 380px;
+
+}
+
+
+
+.universo {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(0.3); /* Cambia el valor para ajustar la oscuridad (0 = completamente negro, 1 = normal) */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .fotoWalter{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+
+
+}
+
+.imagenWalter{
+
+  width: 300px;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+
+
+.container-fluid{
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+
+
+}
+
+
+
+.item{
+color: white;
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+ */
+
+

@@ -1,0 +1,56 @@
+.container-fluid {
+  top: 1450px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Cambia la dirección principal a columna */
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.elemento {
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  margin: 40px;
+  background-color: aqua;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  order: -1; /* Coloca el título al principio del contenedor */
+  color: white;
+  position: relative;
+  bottom: 150px;
+
+}
+
+
+.elemento-img{
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+
+
+
+}
+
+
+.titular{
+  width: 100%;
+  height: 200px;
+  background-color: bisque;
+}
