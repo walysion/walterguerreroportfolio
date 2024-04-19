@@ -18,4 +18,43 @@
   max-width: 100%;
   position: relative;
 }
+/* Media query para pantallas mayores a 708px */
+@media (min-width: 458px) {
+  .item img {
+    top: 140px;
+  }
+}
 
+
+
+
+
+
+
+
+@media (max-width: 630px) {
+  .container-fluid {
+    top: 600px;
+  }
+}
+
+
+
+
+
+.parrafo{
+
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  top: 100px;
+  position: relative;
+  color: rgb(151, 151, 151)
+}
+
+@media (max-width: 624px) {
+  .parrafo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -13,21 +13,15 @@ align-items: center;
 
 }
 
+
 .item{
+
+  width: 100%;
+  height: 300px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-
-
-}
-
-
-.elemento{
-width: 600px;
-height: 200px;
-margin: 10px;
-
-color: white;
-
+  align-items: center;
 }
 
 
@@ -40,6 +34,20 @@ color: white;
 
 
 
+
+
+
+
+.elemento{
+
+color: white;
+margin: 15px;
+
+
+
+}
+
+
 .universo {
   width: 100%;
   position: absolute;
@@ -50,13 +58,30 @@ color: white;
 
 
 
+.iconos{
+  position: relative;
+  top:20px;
+  background-color: rgb(44, 212, 235);
+  display: flex;
+  border-radius: 10px;
+  width: 120%;
+  height: 50px;
+  align-items: center;
+  padding: 10px;
 
 
 
+}
 
 
+.iconos img {
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Cambia el cursor al de una mano */
+}
 
-
+.iconos img:hover {
+  transform: scale(1.1); /* Ajusta el nivel de agrandamiento aquí */
+}
 
 
 /* .fotoWalter{

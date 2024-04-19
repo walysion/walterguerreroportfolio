@@ -1,12 +1,14 @@
 <div class="container-fluid">
+
+
   <img class="universo" src="/assets/fondo1.png" alt="">
 
 
   <div class="item">
 
-  <div style="display: flex; justify-content: end; padding-right: 50px; align-items: center;" class="elemento">
+  <div style="display: flex; justify-content: end; align-items: center;" class="elemento">
 
-       <img src="/assets/walter.png" alt="">
+       <img id="fotowalter" src="/assets/walter.png" alt="">
 
   </div>
 
@@ -15,6 +17,12 @@
     <h1>Hola! soy</h1>
     <h1>Walter Guerrero</h1>
     <h3>Desarrollador FullStack</h3>
+    <div class="iconos">
+      <img id="github" (click)="redireccionar('https://github.com/walysion?tab=repositories')" style="width: 40px; height: 40px; margin-right: 18px;" src="/assets/github.png" alt="">
+      <img id="linke" (click)="redireccionar('https://www.linkedin.com/in/walter-guerrero-ayala-9baa6b200/')" style="width: 40px; height: 40px; margin-right: 18px;" src="/assets/linke.png" alt="">
+      <img id="wsp" (click)="redireccionar('https://api.whatsapp.com/send?phone=56971463095')" style="width: 40px; height: 40px; margin-right: 18px;" src="/assets/whatsapp.png" alt="">
+
+    </div>
 
   </div>
 

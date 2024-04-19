@@ -9,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class SeccionUnoComponent {
 
+// Método para redireccionar a una URL en una nueva pestaña
+redireccionar(url:string) {
+  window.open(url, '_blank');
+}
+
+redireccionpagina(url:string) {
+  window.open(url);
+}
+
+
 }
