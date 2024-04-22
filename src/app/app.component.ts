@@ -6,11 +6,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { ConocimientosComponent } from './conocimientos/conocimientos.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, SeccionUnoComponent, NavBarComponent , SobreMiComponent,ConocimientosComponent, PortfolioComponent],
+  imports: [CommonModule, RouterOutlet, SeccionUnoComponent, NavBarComponent , SobreMiComponent,ConocimientosComponent, PortfolioComponent,FooterComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

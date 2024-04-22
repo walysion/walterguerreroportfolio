@@ -19,11 +19,11 @@
 }
 
 
-@media(max-width:943px){
+@media(max-width:1030px){
 
   .container-fluid{
 
-    top: 2200px;
+    margin-top: 250px;
   }
 
   }
@@ -41,11 +41,12 @@
   width: 400px;
   height: 400px;
   margin: 40px;
-  background-color: aqua;
+
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .titulo {
@@ -58,8 +59,8 @@
 
 
 .elemento-img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin: 40px;
   margin-top: 20px;
   display: flex;
@@ -73,5 +74,10 @@
 .titular{
   width: 100%;
   height: 200px;
-  background-color: bisque;
+  color: white;
+  position: relative;
+  bottom: 40px;
+
 }
+
+
