@@ -58,6 +58,16 @@
 }
 
 
+@media(max-width:450px){
+
+.titulo{
+
+  position: relative;
+  margin-top: 300px;
+}
+
+}
+
 .elemento-img{
   width: 300px;
   height: 300px;
