@@ -34,4 +34,7 @@
 }
 
 
-
+.elemento:hover img {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen en un 10% */
+  transition: transform 0.2s ease; /* Ajusta la velocidad y la fluidez de la transición */
+}
